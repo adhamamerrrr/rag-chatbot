@@ -1,0 +1,70 @@
+{
+  "run_utc": "2026-10-05T17:48:50.083637+00:00",
+  "fixture": "six authored engineering notes; six authored queries; no train/test split",
+  "corpus_sha256": "025649523ee7061a75d9abc5429d3d4b227a4087008084a835bd38532cb7756f",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "generator_model": "google/flan-t5-small",
+  "generator_revision": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
+  "retrieval": [
+    {
+      "question": "Which protocol assigns an IP address lease?",
+      "expected_source": "dhcp.txt",
+      "top_source": "dhcp.txt",
+      "top_score": 0.6295381784439087,
+      "top1_matches": true
+    },
+    {
+      "question": "What does an AAAA record contain?",
+      "expected_source": "dns.txt",
+      "top_source": "dns.txt",
+      "top_score": 0.4286320209503174,
+      "top1_matches": true
+    },
+    {
+      "question": "Why should oversampling happen after splitting?",
+      "expected_source": "smote.txt",
+      "top_source": "smote.txt",
+      "top_score": 0.3985702395439148,
+      "top1_matches": true
+    },
+    {
+      "question": "What is a blackhole attack?",
+      "expected_source": "wsn.txt",
+      "top_source": "wsn.txt",
+      "top_score": 0.41512036323547363,
+      "top1_matches": true
+    },
+    {
+      "question": "How does AMCL localize a robot?",
+      "expected_source": "robotics.txt",
+      "top_source": "robotics.txt",
+      "top_score": 0.7103052735328674,
+      "top1_matches": true
+    },
+    {
+      "question": "Why normalize embeddings for inner product search?",
+      "expected_source": "retrieval.txt",
+      "top_source": "retrieval.txt",
+      "top_score": 0.4471815228462219,
+      "top1_matches": true
+    }
+  ],
+  "top1_matches": 6,
+  "query_count": 6,
+  "generation_smoke": {
+    "question": "What does an AAAA record contain?",
+    "answer": "IPv6",
+    "sources": [
+      {
+        "id": "70350dd94a191717",
+        "source": "dns.txt",
+        "start_char": 0,
+        "text": "DNS maps domain names to records. An A record contains an IPv4 address; AAAA contains IPv6. A recursive resolver consults authoritative servers and caches responses for their time to live. DNS resolution and network connectivity are separate: a reachable IP address does not prove that name resolution works.\n",
+        "score": 0.4286320209503174
+      }
+    ],
+    "generated": true
+  },
+  "warning": "Convenience smoke fixture; not evidence of general retrieval or answer accuracy."
+}
