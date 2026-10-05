@@ -1,0 +1,1 @@
+Wireless sensor networks contain resource-constrained nodes that forward sensed measurements. A blackhole attack drops forwarded traffic; a grayhole selectively drops it. Flooding consumes capacity with excessive traffic. IDS evaluation should examine class imbalance and per-class recall, since overall accuracy can conceal missed rare attacks.

@@ -1,0 +1,1 @@
+AMCL localizes a mobile robot on an existing occupancy map using a particle filter and laser scans. SLAM estimates a map and robot pose together when a map is unavailable. Nav2 uses global and local planning plus costmaps for navigation. Simulation results do not establish hardware reliability or safety around people.

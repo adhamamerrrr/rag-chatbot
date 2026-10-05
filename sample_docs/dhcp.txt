@@ -1,0 +1,1 @@
+DHCP assigns network settings dynamically. A client broadcasts Discover, receives an Offer, sends Request and receives Acknowledgement: DORA. The lease includes an IP address, subnet mask, default gateway and DNS servers. DHCP reduces manual configuration; a reservation can give a known client a stable address.

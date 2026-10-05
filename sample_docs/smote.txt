@@ -1,0 +1,1 @@
+SMOTE creates synthetic minority-class training examples by interpolation between nearby minority samples. Split the data first. Fit preprocessing and apply SMOTE only to training data, never validation or test data. Oversampling before splitting can leak information into the evaluation. Synthetic examples are not newly observed attacks.

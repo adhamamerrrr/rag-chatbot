@@ -1,0 +1,1 @@
+DNS maps domain names to records. An A record contains an IPv4 address; AAAA contains IPv6. A recursive resolver consults authoritative servers and caches responses for their time to live. DNS resolution and network connectivity are separate: a reachable IP address does not prove that name resolution works.

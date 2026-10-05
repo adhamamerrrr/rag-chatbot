@@ -1,0 +1,1 @@
+FAISS searches dense vectors. Normalizing document and query embeddings allows inner product to represent cosine similarity. IndexFlatIP performs exact search and is suitable for small collections. Retrieval finds related text, but does not prove that a generated answer is correct. Display source excerpts so the reader can check the evidence.
