@@ -1,0 +1,8 @@
+langchain-core>=0.3,<2
+langchain-huggingface>=0.3,<2
+transformers>=4.45,<5
+sentence-transformers>=3,<6
+faiss-cpu>=1.9,<2
+streamlit>=1.40,<2
+pytest>=8,<10
+sentencepiece>=0.2,<1
